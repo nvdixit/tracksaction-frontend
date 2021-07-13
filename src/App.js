@@ -1,12 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import CreditCardContainer from './components/CreditCardContainer/CreditCardContainer';
+import "./App.css"
 
-export default class App extends Component {
-  render() {
+function App() {
     return (
-      <div>
-          <CreditCardContainer/>
+      <div id="App"> 
+          <center><h1 id="Header">Tracksaction</h1></center>
+          <center><CreditCardContainer/></center>
       </div>
     );
-  }
 }
+
+export default App

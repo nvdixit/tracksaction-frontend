@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Roboto;
+    src: url("./Fonts/Roboto-Thin.ttf");
+  }
+
+#App {
+    font-family: Roboto-Thin, Roboto;
+}
+
+#Header {
+    font-size: 50pt;
+}
+
+#MainDiv {
+    display: inline-block;
+}
+
+button {
+    font-family: Roboto-Thin, Roboto;
+}
