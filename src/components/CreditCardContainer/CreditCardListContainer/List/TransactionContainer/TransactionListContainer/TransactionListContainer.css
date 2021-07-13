@@ -1,6 +1,7 @@
-#List {
+#TransactionList {
     border-style: solid;
-    border-color: black;
+    border-color: white;
+    border-radius: 15pt;
 
     display: inline-block;
 
@@ -13,8 +14,9 @@
     vertical-align: top;
 
     overflow: scroll;
+    list-style: none;
 }
 
-#FinalContainer {
-    display: inline-block;
+#AddLabel {
+    font-size: 15pt;
 }

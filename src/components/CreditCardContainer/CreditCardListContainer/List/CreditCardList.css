@@ -1,0 +1,62 @@
+#CCList {
+    border-style: solid;
+    border-color: white;
+    border-radius: 15pt;
+    list-style: none;
+    padding-left: 0;
+    overflow: scroll;
+
+    height: 400px;
+    width: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    font-size: 15pt;
+
+    align-items: center;
+}
+
+#ListItem {
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    border-radius: 10pt;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    display:flex;
+    align-items: center;
+    
+    height:50px;
+}
+
+#ListItem:hover {
+    cursor: pointer;
+    color: darkblue;
+    background-color: white;
+}
+
+#CreditCardElement {
+    float:left;
+}
+
+#CreditCardDeleteButton {
+    float: right;
+}
+
+#CCDeleteButton {
+    color:white;
+    background-color: darkblue;
+    margin-left: 20px;
+
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+}
+
+#CCDeleteButton:hover {
+    cursor: pointer;
+}

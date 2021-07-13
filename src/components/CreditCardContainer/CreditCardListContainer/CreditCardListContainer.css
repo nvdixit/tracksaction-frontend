@@ -1,0 +1,28 @@
+#FinalContainer {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#CreditCardList {
+    border-style: solid;
+    border-color: white;
+    border-radius: 10pt;
+
+    display: inline-block;
+
+    height: 400px;
+    width: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    font-size: 15pt;
+
+    vertical-align: top;
+
+    overflow: scroll;
+    list-style: none;
+}
+
+#List {
+    overflow: scroll;
+}
