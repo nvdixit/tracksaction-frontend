@@ -1,0 +1,13 @@
+#ListItem {
+    background-color: lightgray;
+
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+
+    margin-top: 5px;
+}
+
+#ListItem:hover {
+    cursor: pointer;
+}
