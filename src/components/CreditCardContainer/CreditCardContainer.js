@@ -6,7 +6,7 @@ const CreditCards = () => {
     const [creditCards, setCreditCards] = useState([]);
 
     const fetchCreditCards = () => {
-        axios.get("http://tracksaction-env-1.eba-txawxm49.us-east-2.elasticbeanstalk.com/api/v1/creditCards").then(res => {
+        axios.get("https://tracksaction-backend.com/api/v1/creditCards").then(res => {
             setCreditCards(res.data)
             console.log(res.data)
         });

@@ -13,7 +13,7 @@ class CreditCardList extends Component {
     }
 
     cardClicked(ccid) {
-        axios.get("http://tracksaction-env-1.eba-txawxm49.us-east-2.elasticbeanstalk.com/api/v1/transactions", {
+        axios.get("https://tracksaction-backend.com/api/v1/transactions", {
             params: {
                 ccid: ccid
             }
@@ -30,7 +30,7 @@ class CreditCardList extends Component {
         formData.append("id", creditCard.id)
         formData.append("name", creditCard.name)
 
-        axios.post('http://tracksaction-env-1.eba-txawxm49.us-east-2.elasticbeanstalk.com/api/v1/creditCards/creditCard/delete', 
+        axios.post('https://tracksaction-backend.com/api/v1/creditCards/creditCard/delete', 
             formData,
             {
                 headers: {

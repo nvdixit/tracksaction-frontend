@@ -27,7 +27,7 @@ export default class CreditCardListContainer extends Component {
     const formData = new FormData();
     formData.append("name", this.state.term)
 
-    axios.post('http://tracksaction-env-1.eba-txawxm49.us-east-2.elasticbeanstalk.com/api/v1/creditCards/${creditCardName}/creditCard/upload',
+    axios.post('https://tracksaction-backend.com/api/v1/creditCards/${creditCardName}/creditCard/upload',
                 formData,
                 {
                     headers: {

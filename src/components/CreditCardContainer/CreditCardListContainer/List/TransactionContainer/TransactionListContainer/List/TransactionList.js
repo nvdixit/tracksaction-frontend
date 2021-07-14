@@ -20,7 +20,7 @@ function TransactionList(props) {
         formData.append("name", transaction.name)
         formData.append("amount", transaction.amount)
 
-        axios.post('http://tracksaction-env-1.eba-txawxm49.us-east-2.elasticbeanstalk.com/api/v1/transactions/transaction/delete', 
+        axios.post('https://tracksaction-backend.com/api/v1/transactions/transaction/delete', 
             formData,
             {
                 headers: {

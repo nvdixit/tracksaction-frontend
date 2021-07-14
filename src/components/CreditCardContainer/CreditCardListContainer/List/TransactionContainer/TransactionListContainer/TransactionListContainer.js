@@ -37,7 +37,7 @@ export default class ListContainer extends Component {
     formData.append("amount", this.state.price)
     formData.append("ccid", this.props.ccid)   
 
-    axios.post('http://tracksaction-env-1.eba-txawxm49.us-east-2.elasticbeanstalk.com/api/v1/transactions/transactionName/transaction/upload', 
+    axios.post('https://tracksaction-backend.com/api/v1/transactions/transactionName/transaction/upload', 
                 formData,
                 {
                     headers: {
